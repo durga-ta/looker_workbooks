@@ -29,3 +29,12 @@ explore: orders {
   }
 }
 explore: people {}
+
+explore: logistics_orders {}
+explore: ticket_sla_thresholds {}
+explore: kpi_summary_orders {
+  join: max_date {
+    type: cross
+    relationship: one_to_one
+  }
+}

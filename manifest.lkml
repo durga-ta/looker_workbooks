@@ -121,3 +121,20 @@ constant: marketplace_rotated_label {
 constant: marketplace_row_height {
   value: "height: 65px;"
 }
+
+constant: kpi_header_ribbon {
+  value: "<tr style='border-bottom: 1px solid #d1d5db;'>
+  <td style='width: 25%; font-size: 30px; color: #000000; padding-bottom: 10px; text-align: left; font-weight: 600;'>Received Volume</td>
+  <td style='width: 25%; font-size: 30px; color: #000000; padding-bottom: 10px; text-align: left; font-weight: 600;'>Handled Volume</td>
+  <td style='width: 25%; font-size: 30px; color: #000000; padding-bottom: 10px; text-align: left; font-weight: 600;'>Total Orders</td>
+  <td style='width: 25%; font-size: 30px; color: #000000; padding-bottom: 10px; text-align: left; font-weight: 600;'>All Care CPO</td>
+  </tr>"
+}
+
+constant: kpi_ribbon_wrapper_start {
+  value: "<div style='width: 100%; background-color: #ffffff; padding: 10px 0px;'>
+  <table style='width: 100%; border-collapse: collapse; font-family: Arial, sans-serif;'>"
+}
+constant: kpi_value_cell_style {
+  value: "font-size: 44px; color: #333333; padding-top: 14px; text-align: left; font-weight: 400; letter-spacing: -1px; background-color: #ffffff;"
+}
