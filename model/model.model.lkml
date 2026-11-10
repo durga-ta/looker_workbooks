@@ -2,7 +2,7 @@ connection: "data-bricks"
 
 include: "/views/*.view.lkml"
 include: "/dashboards/*.dashboard"
-
+# Adding a Text to verify git access
 #datagroup: daily_refresh {
 # sql_trigger: SELECT MAX(orderid) FROM orders ;;
 #max_cache_age: "24 hours"
